@@ -1,41 +1,45 @@
-# Website
+# 🎓 Supports de Cours – Pr. AIT SAID Mehdi
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This repository, created by **Pr. AIT SAID Mehdi**, contains all course materials including **Cours, TDs, and TPs**.  
+It is designed to provide students with structured educational content and practical resources.
 
-## Installation
+🌐 The platform is also available online at:  
+👉 https://mehdiaitsaid.github.io/Supports-de-Cours-TD-TP/
 
-```bash
-yarn
-```
+---
 
-## Local Development
 
-```bash
-yarn start
-```
+## How to Use Locally
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
+### 1. Clone the repository
 
 ```bash
-yarn build
+git clone https://github.com/mehdiaitsaid/Supports-de-Cours-TD-TP.git
+cd Supports-de-Cours-TD-TP
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
+### 2. Install dependencies
+```bash
+   yarn install
+```
+or
+```bash
+npm install
+```
+### 3. Start the local development server
 
 ```bash
-USE_SSH=true yarn deploy
+   yarn start
 ```
-
-Not using SSH:
-
+or
 ```bash
-GIT_USER=<Your GitHub username> yarn deploy
+npm run start
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+### 4. Access the application
+
+The site will be available at:
+
+👉 http://localhost:3000
+
+

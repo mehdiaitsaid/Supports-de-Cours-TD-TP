@@ -45,15 +45,15 @@ export default function Home(): ReactNode {
     const { contact }:any = useSiteData();
 
     const courses = [
-        { title: 'Base de données', image: '/courses/db.svg', link: '/db/intro', description: 'Conception de base de données: MERISE et SQL' , tags: [ 'MCD', 'MLD', 'MySQL'] },
-        { title: 'Systemes information', image: '/courses/si.png', link: '/noaccess/course-disabled',  description: 'Systèmes d’Information Modélisation UML' , tags: ['Modélisation','Agile', 'Sécurité'] },
-        { title: 'POO', image: '/courses/oop.png', link: '/noaccess/course-disabled',  description: 'Programmation Orientée Objet'  , tags: ['Java', 'SOLID']},
-        { title: 'Spring Boot', image: '/courses/spring.png', link: '/noaccess/course-disabled',  description: 'Développement d\'un système monolithique, modulaire et distribué'  , tags: ['Modulith', 'Microservices']},
-        { title: 'Laravel', image: '/courses/laravel.png', link: '/noaccess/course-disabled',  description: 'Développement d\'une application web moderne'  , tags: ['Livewrire', 'Inertia.js']},
-        { title: 'Cloud Computing', image: '/courses/cloud.png', link: '/noaccess/course-disabled',  description: 'Architecture et ingénierie du cloud public et privé'  , tags: [ 'Containerization', 'Virtualization', 'Automation']},
-        { title: 'DevOps', image: '/courses/devops.png', link: '/noaccess/course-disabled',  description: 'Continuous Integration/Continuous Delivery'  , tags: [ 'Agile', 'Toolchain']},
-        { title: 'Cybersecurity', image: '/courses/cs.png', link: '/noaccess/course-disabled',  description: 'Sécurité des systèmes, des réseaux et des applications'  , tags: [ 'Ethical hacking', 'DEVSECOPS']},
-        { title: 'Systèmes Multi-Agents', image: '/courses/agentic.png', link: '/noaccess/course-disabled',  description: 'Développement et automatisation d\'un système multi-agents complexe et distribué'  , tags: [ 'Automation', 'IA', 'Toolchain']},
+        { title: 'Base de données', image: '/Supports-de-Cours-TD-TP/courses/db.svg', link: '/db/intro', description: 'Conception de base de données: MERISE et SQL' , tags: [ 'MCD', 'MLD', 'MySQL'] },
+        { title: 'Systemes information', image: '/Supports-de-Cours-TD-TP/courses/si.png', link: '/noaccess/course-disabled',  description: 'Systèmes d’Information Modélisation UML' , tags: ['Modélisation','Agile', 'Sécurité'] },
+        { title: 'POO', image: '/Supports-de-Cours-TD-TP/courses/oop.png', link: '/noaccess/course-disabled',  description: 'Programmation Orientée Objet'  , tags: ['Java', 'SOLID']},
+        { title: 'Spring Boot', image: '/Supports-de-Cours-TD-TP/courses/spring.png', link: '/noaccess/course-disabled',  description: 'Développement d\'un système monolithique, modulaire et distribué'  , tags: ['Modulith', 'Microservices']},
+        { title: 'Laravel', image: '/Supports-de-Cours-TD-TP/courses/laravel.png', link: '/noaccess/course-disabled',  description: 'Développement d\'une application web moderne'  , tags: ['Livewrire', 'Inertia.js']},
+        { title: 'Cloud Computing', image: '/Supports-de-Cours-TD-TP/courses/cloud.png', link: '/noaccess/course-disabled',  description: 'Architecture et ingénierie du cloud public et privé'  , tags: [ 'Containerization', 'Virtualization', 'Automation']},
+        { title: 'DevOps', image: '/Supports-de-Cours-TD-TP/courses/devops.png', link: '/noaccess/course-disabled',  description: 'Continuous Integration/Continuous Delivery'  , tags: [ 'Agile', 'Toolchain']},
+        { title: 'Cybersecurity', image: '/Supports-de-Cours-TD-TP/courses/cs.png', link: '/noaccess/course-disabled',  description: 'Sécurité des systèmes, des réseaux et des applications'  , tags: [ 'Ethical hacking', 'DEVSECOPS']},
+        { title: 'Systèmes Multi-Agents', image: '/Supports-de-Cours-TD-TP/courses/agentic.png', link: '/noaccess/course-disabled',  description: 'Développement et automatisation d\'un système multi-agents complexe et distribué'  , tags: [ 'Automation', 'IA', 'Toolchain']},
 
     ];
     // Function to generate a random color
