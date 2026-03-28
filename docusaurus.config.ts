@@ -66,7 +66,35 @@ const config: Config = {
                 sidebarPath: './sidebars.ts',
                 // copy editUrl here if needed
             },
-        ]
+        ],
+        [
+            '@docusaurus/plugin-pwa',
+            {
+                debug: false,
+                offlineModeActivationStrategies: [
+                    'appInstalled',
+                    'standalone',
+                    'queryString',
+                ],
+                pwaHead: [
+                    {
+                        tagName: 'link',
+                        rel: 'icon',
+                        href: '/img/favicon.ico',
+                    },
+                    {
+                        tagName: 'link',
+                        rel: 'manifest',
+                        href: '/manifest.json',
+                    },
+                    {
+                        tagName: 'meta',
+                        name: 'theme-color',
+                        content: '#25c2a0',
+                    },
+                ],
+            },
+        ],
     ],
 
     themeConfig: {
