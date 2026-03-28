@@ -67,34 +67,6 @@ const config: Config = {
                 // copy editUrl here if needed
             },
         ],
-        [
-            '@docusaurus/plugin-pwa',
-            {
-                debug: false,
-                offlineModeActivationStrategies: [
-                    'appInstalled',
-                    'standalone',
-                    'queryString',
-                ],
-                pwaHead: [
-                    {
-                        tagName: 'link',
-                        rel: 'icon',
-                        href: '/Supports-de-Cours-TD-TP/img/favicon.ico',
-                    },
-                    {
-                        tagName: 'link',
-                        rel: 'manifest',
-                        href: '/Supports-de-Cours-TD-TP/manifest.json',
-                    },
-                    {
-                        tagName: 'meta',
-                        name: 'theme-color',
-                        content: '#25c2a0',
-                    },
-                ],
-            },
-        ]
     ],
 
     themeConfig: {
