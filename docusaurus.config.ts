@@ -93,8 +93,6 @@ const config: Config = {
                         content: '#25c2a0',
                     },
                 ],
-
-                workboxOptions: { globPatterns: ['**/*.{js,css,html,png,jpg,jpeg,svg,gif,webp,json}'], },
             },
         ]
     ],
