@@ -80,12 +80,12 @@ const config: Config = {
                     {
                         tagName: 'link',
                         rel: 'icon',
-                        href: '/img/favicon.ico',
+                        href: '/Supports-de-Cours-TD-TP/img/favicon.ico',
                     },
                     {
                         tagName: 'link',
                         rel: 'manifest',
-                        href: '/manifest.json',
+                        href: '/Supports-de-Cours-TD-TP/manifest.json',
                     },
                     {
                         tagName: 'meta',
@@ -93,8 +93,9 @@ const config: Config = {
                         content: '#25c2a0',
                     },
                 ],
+                workboxOptions: { globPatterns: ['**/*.{js,css,html,png,jpg,jpeg,svg,gif,webp,json}'], },
             },
-        ],
+        ]
     ],
 
     themeConfig: {

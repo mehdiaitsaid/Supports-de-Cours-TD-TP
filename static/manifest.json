@@ -1,13 +1,14 @@
 {
-  "name": "Supports de Cours/TD/TP",
+  "name": "Supports de Cours",
   "short_name": "Cours",
-  "start_url": "/",
+  "start_url": "/Supports-de-Cours-TD-TP/",
+  "scope": "/Supports-de-Cours-TD-TP/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#25c2a0",
   "icons": [
     {
-      "src": "/img/favicon.ico",
+      "src": "/Supports-de-Cours-TD-TP/img/favicon.ico",
       "sizes": "48x48",
       "type": "image/x-icon"
     }
